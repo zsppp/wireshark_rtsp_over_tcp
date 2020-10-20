@@ -18,7 +18,7 @@ int printHelp(int argc, char *argv[])
     printf("  %s 1 ./rtsp_tcpdump.pcap 192.168.3.17 554 ./data/h264/\n", argv[0]);
     printf("  %s 2 ./rtsp_tcpdump.pcap 192.168.3.17 554 ./data/h264/ 169635 175635\n", argv[0]);
     printf("  %s 3 ./test.h264 ./data/h264_split_by_start_code/\n", argv[0]);
-    printf("\n", argv[0]);
+    printf("\n");
     printf("Notice:\n");
     printf("  parser_type=1:     Extract H264 video data from pcap file which created by tcpdump or wireshark.\n");
     printf("                     And the pcap file contains RTSP data which over TCP.\n");
