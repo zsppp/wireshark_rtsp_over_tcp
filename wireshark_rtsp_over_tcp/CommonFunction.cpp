@@ -1,9 +1,12 @@
 #include "CommonFunction.h"
+#include <cstring>
 
 #if defined(_WIN32) || defined(_WIN64)
 #include <Shlwapi.h>
 #else
-
+#include <unistd.h>
+#include <sys/stat.h>
+#include <sys/types.h>
 #endif
 
 
